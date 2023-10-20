@@ -1,77 +1,60 @@
-# All Human - Accessible Website
 
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
- 
+# Fix the Flow - Interactive Website
+
+Ontwerp en maak een interactieve website voor een opdrachtgever.
+
 ## Context
 
-Deze leertaak hoort bij sprint 3: All Human. 
-Dit is een opdracht die je individueel of in een team uitvoert voor een opdrachtgever.
+Deze leertaak hoort bij sprint 5 _Fix the Flow_, dit is een leertaak die je individueel uitvoert.
+
+In het college _S05W1-01-Sprintplanning-fix-the-flow_ krijg je uitleg over de opdracht. In de workshop _S05W1-03-Programming-interaction_ leer je hoe je met CSS en JS interactie codeert.
 
 Bij deze leertaak hoort de deeltaak:
-
-- [All human - WGAG audit](https://github.com/fdnd-task/all-human-wcag-audit)
+- [fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow) 
 
 ## Doel van deze opdracht
 
-Je leert hoe je een (gedeelte van een) website toegankelijk kan ontwerpen, bouwen en testen.
+Je leert hoe je goede interactie kan ontwerpen en maken. 
 
 ## Werkwijze
 
-Deze opdracht gaat over alle fases van de **development-lifecycle** [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), integreren en testen.
+Voor deze opdracht kies je een User Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. 
 
+Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is. 
 
-### Analyseren
+Voor deze opdracht ga je eerst leren een wireflow te tekenen van de interactie die je wil maken. Dat doe je in de deeltaak [fix-the-flow-wireflow](https://github.com/fdnd-task/fix-the-flow-wireflow). Daarna ga je de interactie coderen met CSS en JS. Tijdens de code/design review op vrijdag ga je de interactie leren testen met een User test. 
 
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.
+### Aanpak
 
-De vorige sprint heb je individueel of in een team een opdracht voor een opdrachtgever ontworpen en gemaakt. Na 3 weken heb je tijdens de sprint-review je opdracht laten zien en feedback gekregen. Deze sprint ga je verder met de opdracht, ga je de feedback verwerken of, als de opdracht goed was, kies je een nieuwe user story om aan te werken. 
+1. Fork deze leertaak
+2. Kies een geschikte User Story uit de backlog van het project waar je aan gaat werken. 
+3. Schrijf de User Story in de Readme van je repo
+4. Kopieer de Wireflow die je hebt gemaakt in de deeltaak _Wireflow_ naar de Wiki van je repo
+5. Codeer de interactie met CSS en JS en commit je code naar je repo
+6. Test je ontwerp tijdens de code/design review in de eerste week. maak issues aan van de feedback die je krijgt en verbeter de feedback
+7. Doe een user test tijdens de code/design review in de tweede week en schrijf een verslag van de user test in de Wiki 
+8. Presenteer je werk tijden de sprint review aan de opdrachtgever
 
-Eerst ga je met de studenten die dezelfde opdrachtgever hebben de [sprint-review bespreken](#1-sprint-review-bespreken), daarna ga je aan de slag met de [leertaak](#2-aanpak-leertaak). 
+### Materiaal
 
+- Tutorial  [if you only know one thing about JavaScript, this is what I would recommend](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
+- [MDN QuerySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+- [MDN ClassList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) 
+- [MDN addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-#### 1. Sprint-review bespreken
+## Criteria
 
-0. Lees eerst de instructies van deze leertaak zorgvuldig door.
-1. Bespreek met de studenten die dezelfde opdrachtgever hebben de sprint-review van de vorige sprint.
-2. Bespreek de feedback van de opdrachtgever.
-3. Bekijk en bespreek het door jullie gemaakte werk. Maak individueel aantekeningen.
-4. Bekijk de _Backlog_ op https://github.com/fdnd-agency/.
-5. Is de _user story_ waar je aan hebt gewerkt af? Dan verplaats je deze taak naar 'done'.
-6. Is de _user story_ nog niet af? Laat deze dan 'In Progress' staan.
-7. Hebben jullie met de opdrachtgever nieuwe dingen bedacht? Schrijf dan nieuwe _user stories_ en voeg ze toe aan de _Backlog_.
+Focus sprint 5 - De focus van deze sprint ligt op interactie en informatie architectuur van een website.
 
-
-#### 2. Aanpak Leertaak
-
-1. Fork en Clone deze leertaak.
-2. Maak issues van de feedback die je hebt besproken.
-3. Doe een Lighthouse test op de website uit de vorige sprint, documenteer de gevonden problemen en maak issues aan.
-4. Voer een aantal handmatige tests uit op de website uit de vorige sprint, documenteer de gevonden problemen en maak issues aan.
-
-
-## Ontwerpen
-
-In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.
-
-1. Verwerk de feedback en testresultaten in een nieuw ontwerp.
-2. Maak schetsen zodat je niet vergeet wat je wil veranderen, of pas je vorige ontwerp aan in Figma of XD.
-3. Maak eerst een kopie van je ontwerp en bewaar de vorige versie. Schrijf annotaties (korte uitleg) bij de wijzigingen in je ontwerp. 
-
-
-### Bouwen
-
-In de bouwfase realiseer je de beslissingen uit de ontwerpfase in HTML, CSS en JS.
-
-1. Schrijf elke sprint nieuwe code, ook al blijven onderdelen van de website hetzelfde. Dit is even wat werk, maar zo leer je beter coderen en nettere code schrijven.
-2. Verbeter de website op basis van de testresultaten.
-3. Verbeter de website op basis van de feedback die je hebt gekregen en/of nieuwe ideeën die je hebt bedacht.
-   
-
-## Definition of done
+Voor deze leertaak gelden de gedragscriteria voor sprint 5: 
+* Methodisch handelen: Student past aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving toe.
+* Communiceren: Student luistert naar wat een ander zegt en neemt dit serieus.
+* Communiceren: Student kan binnen de squad ontwerpkeuzes, eigen ideeën en producten begrijpelijk verwoorden.
+* ~~Probleemoplossend vermogen: Student schetst om gedachten en processen te verkennen.~~
+* Lerend vermogen: Student maakt aangeboden materie eigen en gebruikt dit bij leertaken.
 
 Deze opdracht is done als:
+- [ ] Je hebt een interactie gecodeerd en het eindresultaat gedocumenteerd in de Readme
+- [ ] Je hebt een code/design review gedaan, issues aangemaakt en de feedback verwerkt
+- [ ] Je hebt een user test gedaan en de test gedocumenteerd in de wiki
 
-- [ ] Je hebt een Lighthouse test gedaan en gevonden problemen verholpen
-- [ ] Je hebt een serie handmatige tests gedaan en gevonden problemen verholpen
-- [ ] Je hebt je werk gedocumenteerd in de Readme en Wiki 
-- [ ] De website staat op GitHub en heeft een live url
