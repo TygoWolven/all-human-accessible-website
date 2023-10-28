@@ -353,9 +353,13 @@ body.dark .home .text{
     color: var(--text-color);
 }
 
-  /*#####################################*/
- /* Vanaf hier begint mijn eigen code!  */
-/*#####################################*/
+  /*######################################################*/
+ /* Vanaf hier begint mijn eigen code van de Leeslijst!  */
+/*######################################################*/
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
 
 .home {
     color: var(--text-color);
@@ -363,28 +367,47 @@ body.dark .home .text{
 
 .readinglist {
     background-color: var(--sidebar-color);
-
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
 }
 
 .books li{
     border-top: solid var(--primary-color-light);
-
+    padding: 1.25em;
     list-style: none;
 
     display: grid;
     grid-template-areas: 
+    "image author"
     "image title"
     "image description";
 }
 
-.books li img{
-    grid-area: image;
+.books a {
+    text-decoration: none;
+    color: var(--text-color);
 }
-.books li h2{
+
+.books img{
+    grid-area: image;
+    max-width: 10em;
+}
+.books h2{
     grid-area: title;
 }
-.books li p{
+.books h3{
+    grid-area: author;
+    align-self: end;
+}
+.books p{
     grid-area: description;
 }
+
+  /*#########################################################*/
+ /* Vanaf hier begint mijn eigen code van de Detailpagina!  */
+/*#########################################################*/
+
+.bookdetails {
+    background-color: var(--sidebar-color);
+}
+
