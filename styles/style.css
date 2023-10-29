@@ -420,7 +420,9 @@ body.dark .home .text{
     grid-template-areas: 
     "img auth"
     "img tit"
-    "img des";
+    "img des"
+    "img details"
+    "img list";
 }
 
 .bookdetails img {
@@ -444,6 +446,12 @@ body.dark .home .text{
     padding-left: 2.1em;
     
     grid-area: auth;
+}
+.bookdetails h3 {
+    grid-area: details;
+}
+.bookdetails ul {
+    grid-area: list;
 }
 .bookdetails p {
     grid-area: des;
