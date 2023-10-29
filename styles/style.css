@@ -408,12 +408,43 @@ body.dark .home .text{
 /*#########################################################*/
 
 .bookdetails {
-    background-color: var(--sidebar-color);
+    background-image: linear-gradient(
+        var(--primary-color) 30%,
+        var(--sidebar-color) 30%
+    );
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "img auth"
+    "img tit"
+    "img des";
 }
 
 .bookdetails img {
     max-width: 25em;
-    border: solid var(--sidebar-color) 1em;
+    border: solid var(--sidebar-color) 0.75em;
+
+    grid-area: img;
+}
+.bookdetails h1 {
+    color: var(--sidebar-color);
+    font-size: 4em;
+    padding-left: 1em;
+
+    grid-area: tit;
+}
+.bookdetails h2 {
+    color: var(--sidebar-color);
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: 2em;
+    padding-left: 2.1em;
+    
+    grid-area: auth;
+}
+.bookdetails p {
+    grid-area: des;
 }
