@@ -389,8 +389,10 @@ body.dark .home .text{
 }
 
 .books img {
+    max-width: 15em;
+    padding-left: 5em;
+        
     grid-area: image;
-    max-width: 10em;
 }
 .books h2 {
     grid-area: title;
@@ -400,6 +402,8 @@ body.dark .home .text{
     align-self: end;
 }
 .books p {
+    max-width: 40em;
+
     grid-area: description;
 }
 
