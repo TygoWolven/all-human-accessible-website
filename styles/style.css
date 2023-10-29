@@ -388,18 +388,18 @@ body.dark .home .text{
     color: var(--text-color);
 }
 
-.books img{
+.books img {
     grid-area: image;
     max-width: 10em;
 }
-.books h2{
+.books h2 {
     grid-area: title;
 }
-.books h3{
+.books h3 {
     grid-area: author;
     align-self: end;
 }
-.books p{
+.books p {
     grid-area: description;
 }
 
@@ -409,5 +409,11 @@ body.dark .home .text{
 
 .bookdetails {
     background-color: var(--sidebar-color);
+    padding: 2em;
+    margin: 0 3.8em 0 3.8em;
 }
 
+.bookdetails img {
+    max-width: 25em;
+    border: solid var(--sidebar-color) 1em;
+}
