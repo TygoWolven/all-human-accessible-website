@@ -413,14 +413,15 @@ body.dark .home .text{
 
 .bookdetails {
     background-image: linear-gradient(
-        var(--primary-color) 30%,
-        var(--sidebar-color) 30%
+        var(--primary-color) 27%,
+        var(--sidebar-color) 27%
     );
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
 
     display: grid;
     grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr 2fr;
     grid-template-areas: 
     "img auth"
     "img tit"
@@ -439,6 +440,7 @@ body.dark .home .text{
     color: var(--sidebar-color);
     font-size: 4em;
     padding-left: 1em;
+    margin-top: -0.2em;  
 
     grid-area: tit;
 }
@@ -450,13 +452,25 @@ body.dark .home .text{
     padding-left: 2.1em;
     
     grid-area: auth;
+    align-self: end;
 }
 .bookdetails h3 {
+    padding-left: 1.3em;
+    font-size: 1.5em;
     grid-area: details;
+    align-self: end;
 }
 .bookdetails ul {
+    list-style: none;
+    padding-left: 2em;
+
     grid-area: list;
 }
+.bookdetails ul:nth-of-type(2){
+    padding-left: 17em;
+}
 .bookdetails p {
+    padding-left: 2em;
     grid-area: des;
+    align-self: center;
 }
