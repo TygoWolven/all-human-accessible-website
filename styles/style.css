@@ -394,13 +394,16 @@ body.dark .home .text{
         
     grid-area: image;
 }
+
 .books h2 {
     grid-area: title;
 }
+
 .books h3 {
     grid-area: author;
     align-self: end;
 }
+
 .books p {
     max-width: 40em;
 
@@ -427,7 +430,9 @@ body.dark .home .text{
     "img tit"
     "img des"
     "img details"
-    "img list";
+    "img list"
+     "sug sug
+    
 }
 
 .bookdetails img {
@@ -436,6 +441,7 @@ body.dark .home .text{
 
     grid-area: img;
 }
+
 .bookdetails h1 {
     color: var(--sidebar-color);
     font-size: 4em;
@@ -444,6 +450,7 @@ body.dark .home .text{
 
     grid-area: tit;
 }
+
 .bookdetails h2 {
     color: var(--sidebar-color);
     text-decoration: underline;
@@ -454,23 +461,31 @@ body.dark .home .text{
     grid-area: auth;
     align-self: end;
 }
+
 .bookdetails h3 {
     padding-left: 1.3em;
     font-size: 1.5em;
     grid-area: details;
     align-self: end;
 }
+
 .bookdetails ul {
     list-style: none;
     padding-left: 2em;
 
     grid-area: list;
 }
+
 .bookdetails ul:nth-of-type(2){
     padding-left: 17em;
 }
+
 .bookdetails p {
     padding-left: 2em;
     grid-area: des;
     align-self: center;
+}
+
+.suggestedbooks {
+    grid-area: sug;
 }
