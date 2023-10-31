@@ -363,6 +363,7 @@ body.dark .home .text{
 
 .home {
     color: var(--text-color);
+    background-color: red;
 }
 
 .readinglist {
@@ -416,8 +417,8 @@ body.dark .home .text{
 
 .bookdetails {
     background-image: linear-gradient(
-        var(--primary-color) 20%,
-        var(--sidebar-color) 20%
+        var(--primary-color) 17%,
+        var(--sidebar-color) 17%
     );
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
@@ -431,7 +432,8 @@ body.dark .home .text{
     "img des"
     "img details"
     "img list"
-    "sug sug";
+    "sug sug"
+    "authinfo elsa";
 }
 
 .bookdetails img {
@@ -500,4 +502,22 @@ body.dark .home .text{
 
 .suggestedbooks ul li img {
     max-width: 12em;
+}
+
+.authinfo {
+    grid-area: authinfo;
+    grid-column: 1 / 3;
+    max-width: 75%;
+    padding-top: 2em;
+}
+
+.authinfo h4 {
+    font-size: 1.3em;
+    padding: 1em 0 0.3em 1.58em;
+}
+
+#elsa {
+    grid-area: elsa;
+    justify-self: end;
+    padding: 1.5em 1.5em 0.3em 0;
 }
