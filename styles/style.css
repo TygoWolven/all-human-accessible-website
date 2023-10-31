@@ -416,23 +416,22 @@ body.dark .home .text{
 
 .bookdetails {
     background-image: linear-gradient(
-        var(--primary-color) 27%,
-        var(--sidebar-color) 27%
+        var(--primary-color) 20%,
+        var(--sidebar-color) 20%
     );
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
 
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 0.5fr 1fr 2fr 0.5fr 2fr;
+    grid-template-rows: 0.5fr 1fr 2fr 0.5fr 1.5fr;
     grid-template-areas: 
     "img auth"
     "img tit"
     "img des"
     "img details"
     "img list"
-     "sug sug
-    
+    "sug sug";
 }
 
 .bookdetails img {
@@ -469,7 +468,7 @@ body.dark .home .text{
     align-self: end;
 }
 
-.bookdetails ul {
+.bookdetails > ul {
     list-style: none;
     padding-left: 2em;
 
@@ -487,5 +486,18 @@ body.dark .home .text{
 }
 
 .suggestedbooks {
+    padding-top: 1.5em;
+
     grid-area: sug;
+}
+
+.suggestedbooks > ul {
+    display: flex;
+    overflow-x: scroll;
+    margin-right: 2em;
+    list-style: none;
+}
+
+.suggestedbooks ul li img {
+    max-width: 12em;
 }
