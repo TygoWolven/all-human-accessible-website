@@ -363,7 +363,6 @@ body.dark .home .text{
 
 .home {
     color: var(--text-color);
-    background-color: red;
 }
 
 .readinglist {
@@ -417,8 +416,8 @@ body.dark .home .text{
 
 .bookdetails {
     background-image: linear-gradient(
-        var(--primary-color) 17%,
-        var(--sidebar-color) 17%
+        var(--primary-color) 14%,
+        var(--sidebar-color) 14%
     );
     padding: 2em;
     margin: 0 3.8em 0 3.8em;
@@ -519,5 +518,6 @@ body.dark .home .text{
 #elsa {
     grid-area: elsa;
     justify-self: end;
-    padding: 1.5em 1.5em 0.3em 0;
+    padding-top: 4.4em;
+    padding-right: 1em;
 }
