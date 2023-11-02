@@ -521,3 +521,41 @@ body.dark .home .text{
     padding-top: 4.4em;
     padding-right: 1em;
 }
+
+  /*#########################################################*/
+ /* Vanaf hier begint mijn eigen code van de Welkompagina!  */
+/*#########################################################*/
+
+.welcome-info {
+    padding: 15px 50px;
+}
+
+.welcome-info ul {
+    margin: 1em;
+    max-width: 33em;
+}
+
+.welcome-info ul a {
+    color: #FF0000;
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 50px;
+    margin-bottom: 0.25em;
+}
+
+#welkom1 {
+    max-width: 33em;
+    margin-top: 3em;
+}
+#welkom2{
+    margin-top: 3em;
+}
+
+.copyright {
+    margin: 4em;
+    padding-bottom: 2em;
+    float: right;
+    font-size: 0.7em;
+}
