@@ -332,7 +332,7 @@ body.dark .switch::before{
     top: 0;
     top: 0;
     left: 250px;
-    height: 100vh;
+    height: 201vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
@@ -346,7 +346,7 @@ body.dark .switch::before{
 
 .sidebar.close ~ .home{
     left: 78px;
-    height: 169vh;
+    height: 194vh;
     width: calc(100% - 78px);
 }
 body.dark .home .text{
@@ -426,8 +426,8 @@ h3 {
 
 .bookdetails {
     background-image: linear-gradient(
-        #FF0000 13%,
-        var(--sidebar-color) 13%
+        #FF0000 12%,
+        var(--sidebar-color) 12%
     );
     padding: 2em;
     margin: 0 3.8em 0 5.5em;
@@ -445,7 +445,7 @@ h3 {
 }
 
 .bookdetails img {
-    max-width: 25em;
+    max-width: 22em;
     border: solid var(--sidebar-color) 0.75em;
 
     grid-area: image;
@@ -453,9 +453,9 @@ h3 {
 
 .bookdetails h1 {
     color: var(--sidebar-color);
-    font-size: 4em;
+    font-size: 3em;
     padding-left: 1em;
-    margin-top: -0.2em;  
+    margin-top: -0.15em;  
 
     grid-area: title;
 }
@@ -463,8 +463,8 @@ h3 {
 .bookdetails h2 {
     color: var(--sidebar-color);
     font-weight: 100;
-    font-size: 2em;
-    padding-left: 2em;
+    font-size: 1.75em;
+    padding-left: 1.75em;
     
     grid-area: author;
     align-self: end;
@@ -483,7 +483,7 @@ h3 {
 }
 
 .bookdetails > ul:nth-of-type(2){
-    padding-left: 20em;
+    padding-left: 15em;
 }
 
 .bookdetails p {
@@ -493,7 +493,7 @@ h3 {
 }
 
 .bookdetails > p:nth-of-type(1) {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .bookdetails h3:nth-of-type(2){
