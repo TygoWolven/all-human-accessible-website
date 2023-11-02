@@ -466,19 +466,16 @@ h3 {
 
 .details {
     grid-area: details;
-}
+}   
 
 .details > ul {
     list-style: none;
     padding-left: 2em;  
 }
 
-.bookdetails ul:nth-of-type(2){
-    padding-left: 17em;
-}
-
 .bookdetails p {
     padding-left: 2em;
+
     grid-area: description;
     align-self: center;
 }
@@ -502,6 +499,8 @@ h3 {
 
 .availability {
     grid-area: availability;
+    overflow: hidden;
+    height: 12em;
 }
 
 .availability > ul {
